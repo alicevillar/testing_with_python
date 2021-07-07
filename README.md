@@ -20,7 +20,9 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (â
 ```
 Run styleLint.py in Codio.
 
-  => What happens when the code is run? Can you modify this code for a more favourable outcome? What amendments have you made to the code?
+  => What happens when the code is run? 
+  => Can you modify this code for a more favourable outcome? 
+  => What amendments have you made to the code?
 ```
  | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
 
@@ -32,7 +34,9 @@ Run styleLint.py in Codio.
 pip install pylint
 Run pylint on pylintTest.py
 
-  =>  Review each of the code errors returned. Can you correct each of the errors identified by pylint? Before correcting the code errors, save the pylintTest.py file with a new name (it will be needed again in the next question).
+  =>  Review each of the code errors returned. 
+  =>  Can you correct each of the errors identified by pylint? 
+  =>  Before correcting the code errors, save the pylintTest.py file with a new name (it will be needed again in the next question).
 ```
  | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
 
