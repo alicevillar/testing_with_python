@@ -24,10 +24,27 @@ Run styleLint.py in Codio.
   => Can you modify this code for a more favourable outcome? 
   => What amendments have you made to the code?
 ```
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
+ | Lab Question 1 | [Solution](https://https://github.com/alicevillar/pylint_challenges/edit/main/stilelint.py) 
+
+In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input a positive integer. Note that there are rules for the factorial calculation that we need to check. Thus, I added these checks:
+* n must be an integer
+* n must be greater or equal to 1 (n≥1)
+Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
+
+#### Three ways to calculate factorial
+
+After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
+
+* a) Using a function from the math module: The math library has a function to calculate factorial and the code only take one line. 
+* b) Using for loop:
+* c) Using recursion.  
 
 
- 
+The math library (prebuilt in Python) has a function to calculate factorial. The result would be the same as in the code in the above section but will only take one line to calculate it.
+
+
+
+
 #### Lab Question 2
 
 ```
@@ -40,6 +57,16 @@ Run pylint on pylintTest.py
 ```
  | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
 
+
+  Note that the factorial function is defined only for positive integers;                   
+ pylint -E stylelint.py = comando p/ buscar errors                                          
+ Output => stylelint.py:9:1: E0001: invalid syntax (<unknown>, line 9) (syntax-error)       
+                                                                                             
+  pylint -rn stylelint.py = >                                                                
+                                                                                             
+ stylelint.py:9:1: E0001: invalid syntax (<unknown>, line 9) (syntax-error)                 
+                                                                                             
+ OUTPUT => SyntaxError: Missing parentheses in call to 'print'. Did you mean print(encoded)?
  
 #### Lab Question 3
 
