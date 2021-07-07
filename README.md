@@ -45,10 +45,7 @@ Run pylint on pylintTest.py
 
 ```
 pip install flake8
-Run
-
-flake8 
-on pylintTest.py
+Run flake8 on pylintTest.py
 
 => Review the errors returned. In what way does this error message differ from the error message returned by pylint?
 => Run flake8 on metricTest.py. Can you correct each of the errors returned by flake8? What amendments have you made to the code?
@@ -60,9 +57,7 @@ on pylintTest.py
 
 ```
 pip install mccabe
-
 Run mccabe on sums.py. What is the result?
-
 Run mccabe on sums2.py. What is the result?
 
 => What are the contributors to the cyclomatic complexity in each piece of code?
@@ -79,7 +74,8 @@ From Section 5 of the Firdaus et al (2014) reading, select a test technique from
 * Structure-based techniques
 * Experience-based techniques
 <br>
-Discuss the scenario(s) in which each technique would be important to be used.
+
+=> Discuss the scenario(s) in which each technique would be important to be used.
 ```
  | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)  
  
