@@ -15,7 +15,7 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (â
 <!-- /TOC -->
 
 
-#### Lab Question 1
+## 1. Lab Question 1
 
 ```
 Run styleLint.py in Codio.
@@ -31,7 +31,7 @@ In this exercise, the code had identation errors. After fixing identation, I cha
 * n must be greater or equal to 1 (nâ‰¥1)
 Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
 
-#### Three ways to calculate factorial
+##### Three ways to calculate factorial
 
 After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
 
@@ -45,7 +45,7 @@ The math library (prebuilt in Python) has a function to calculate factorial. The
 | Calculating Factorial | [Solution](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
 
-#### Lab Question 2
+## 2. Lab Question 2
 
 ```
 pip install pylint
@@ -68,7 +68,7 @@ Run pylint on pylintTest.py
                                                                                              
  OUTPUT => SyntaxError: Missing parentheses in call to 'print'. Did you mean print(encoded)?
  
-#### Lab Question 3
+## 3. Lab Question 3
 
 ```
 pip install flake8
@@ -80,7 +80,7 @@ Run flake8 on pylintTest.py
  | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
 
  
-#### Lab Question 4
+## 4. Lab Question 4
 
 ```
 pip install mccabe
