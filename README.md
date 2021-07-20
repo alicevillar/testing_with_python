@@ -42,7 +42,7 @@ After doing Lab Question 1, I wanted to go further so I tested three ways to cal
 
 The math library (prebuilt in Python) has a function to calculate factorial. The result would be the same as in the code in the above section but will only take one line to calculate it.
 
-
+| Calculating Factorial | [Solution](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
 
 #### Lab Question 2
