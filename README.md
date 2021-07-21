@@ -38,7 +38,7 @@ In this exercise, the code had identation errors. After fixing identation, I cha
 * n must be greater or equal to 1 (n≥1)
 Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
 
- | Click here to see the solution for Lab Question 1 | [stilelint.py](https://https://github.com/alicevillar/pylint_challenges/edit/main/stilelint.py) 
+ | Click here to see the solution for Lab Question 1 | [stylelint.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint.py) 
 
 ### :arrow_forward: Three ways to calculate factorial
 
