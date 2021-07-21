@@ -1,4 +1,4 @@
- <h1>Pylint Challenges</h1>
+ <h1>Testing with Python: CODIO Challenges</h1>
 
 This repository contains Pylint exercises from CODIO. It was part of Module 3 (“Secure Software Development”) Unit 6 (Using Linters to Support Python Testing) of my MSc in Computer Science at the University of Essex, UK.
 
