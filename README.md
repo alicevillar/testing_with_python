@@ -13,7 +13,7 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (â
 <!-- /TOC -->
 
 
-## 1. Lab Question 1
+## 1. LAB QUESTION 1
 
 Run styleLint.py: 
 ```
@@ -24,14 +24,14 @@ return 1
 else:
 return n*factorial(n-1)
 ```
-### :paperclip: Questions: 
+### :paperclip: TASK: 
 
   * What happens when the code is run? 
   * Can you modify this code for a more favourable outcome? 
   * What amendments have you made to the code?
  
  
-### :paperclip: Answer:
+### :paperclip: MY SOLUTION:
 
 In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input a positive integer. Note that there are rules for the factorial calculation that we need to check. Thus, I added these checks:
 * n must be an integer
@@ -51,7 +51,7 @@ After doing Lab Question 1, I wanted to go further so I tested three ways to cal
 | Click here to see the solution | [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
 
-## 2. Lab Question 2
+## 2. LAB QUESTION 2
 
 pip install pylint, then run pylint on pylintTest.py:
 ```
@@ -81,27 +81,19 @@ pip install pylint, then run pylint on pylintTest.py:
 
 ```
 
-### :paperclip: Questions: 
+### :paperclip: TASK: 
 
-  * Review each of the code errors returned. 
-  * Can you correct each of the errors identified by pylint? 
+  * Review each of the code errors returned. Can you correct each of the errors identified by pylint? 
   * Before correcting the code errors, save the pylintTest.py file with a new name (it will be needed again in the next question).
  
+### :paperclip: MY SOLUTION:
 
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
+I have corrected all the errors identified by pylist and finally received this response in the terminal: "Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)". I saved the new code in the file named pylint_test_done.py. Please click the linkk below to see it: 
 
+ | Click here to see the solution to Lab Question 2 | [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)   
 
-  Note that the factorial function is defined only for positive integers;                   
- pylint -E stylelint.py = comando p/ buscar errors                                          
- Output => stylelint.py:9:1: E0001: invalid syntax (<unknown>, line 9) (syntax-error)       
-                                                                                             
-  pylint -rn stylelint.py = >                                                                
-                                                                                             
- stylelint.py:9:1: E0001: invalid syntax (<unknown>, line 9) (syntax-error)                 
-                                                                                             
- OUTPUT => SyntaxError: Missing parentheses in call to 'print'. Did you mean print(encoded)?
  
-## 3. Lab Question 3
+## 3. LAB QUESTION 3
 
 ```
 pip install flake8
