@@ -1,14 +1,11 @@
 # CODE SOURCE: SOFTWARE ARCHITECTURE WITH PYTHON
 
 """
-2 Module metricTest.py
-3
-4 Metric example - Module which is used as a testbed for static
+Module metricTest.py
+Metric example - Module which is used as a testbed for static
 checkers.
-5 This is a mix of different functions and classes doing
-different things.
-6
-7 """
+This is a mix of different functions and classes doing different things.
+ """
 
 """ A function which performs a sum """
 
@@ -76,25 +73,4 @@ class D_class(C_class):
 
         return self.y - self.x
 
-# parentesis, indentation, importing, deleted "Chapter 2 ", changed the order expected_time & start_time
-# deleted import random because was not being used
-# deleted unecessary "else" in the last function
-# name of the last function has to be a string
-# In the last function, argument name "y" doesn't conform to snake_case naming style (invalid-name)
-# functions names must be pascal case
-# explicar o que cada funcao faz
-# inserir comentário dentro da funcao (qdo a função nao for um getter nem setter nem construtor)
-# else desnecessário na função def f_function
-# Unused argument 'x' (unused-argument) = criar variaveis para colovar o x e o y
-# nome da primeira funçao está mto grande. FOi preciso reduzir.
-# o nome do arquivo tem q respeitar o snake case
-# retirar o module "object" da primeira função porque é redundante
 
-'''   
-def getX():
-    return self.X # getter
-
-def setX(new_x): 
-    self.X = new_x 
-    return self.X # setter
-'''
