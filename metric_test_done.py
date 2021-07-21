@@ -1,13 +1,10 @@
 # CODE SOURCE: SOFTWARE ARCHITECTURE WITH PYTHON
 
 """
-2 Module metricTest.py
-3
-4 Metric example - Module which is used as a testbed for static
-checkers.
-5 This is a mix of different functions and classes doing
-different things.
-7 """
+Module metricTest.py
+Metric example - Module which is used as a testbed for static checkers.
+This is a mix of different functions and classes doing different things.
+"""
 
 def fn_function(num_1,num_2):
     """ Function fn that return the sum of x and y"""
