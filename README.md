@@ -24,14 +24,14 @@ return 1
 else:
 return n*factorial(n-1)
 ```
-### Questions: 
+### :paperclip: Questions: 
 
   * What happens when the code is run? 
   * Can you modify this code for a more favourable outcome? 
   * What amendments have you made to the code?
  
  
-### Answer:
+### :paperclip: Answer:
 
 In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input a positive integer. Note that there are rules for the factorial calculation that we need to check. Thus, I added these checks:
 * n must be an integer
@@ -40,7 +40,7 @@ Finally, I added the input() function to read the value entered by the user, cal
 
  | Click here to see the solution for Lab Question 1 | [stylelint.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint.py) 
 
-### :arrow_forward: Three ways to calculate factorial
+### :round_pushpin: Three ways to calculate factorial
 
 After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
 
