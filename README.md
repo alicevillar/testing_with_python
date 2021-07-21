@@ -24,14 +24,14 @@ return 1
 else:
 return n*factorial(n-1)
 ```
-## Questions: 
+### Questions: 
 
   * What happens when the code is run? 
   * Can you modify this code for a more favourable outcome? 
   * What amendments have you made to the code?
  
  
-## Answer:
+### Answer:
 
 In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input a positive integer. Note that there are rules for the factorial calculation that we need to check. Thus, I added these checks:
 * n must be an integer
