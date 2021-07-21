@@ -1,6 +1,6 @@
  <h1>Pylint Challenges</h1>
 
-This repository contains Pylint exercises from CODIO. It was part of Module 3 (“Secure Software Development”) Unit 4 (Exploring Programming Language Concepts) of my MSc in Computer Science at the University of Essex, UK.
+This repository contains Pylint exercises from CODIO. It was part of Module 3 (“Secure Software Development”) Unit 6 (Using Linters to Support Python Testing) of my MSc in Computer Science at the University of Essex, UK.
 
 <h2>Table of Contents</h2>
 
@@ -94,15 +94,63 @@ I have corrected all the errors identified by pylist and finally received this r
 
  
 ## 3. LAB QUESTION 3
-
-```
+ 
 pip install flake8
-Run flake8 on pylintTest.py
+Run flake8 on pylintTest.py:
 
-=> Review the errors returned. In what way does this error message differ from the error message returned by pylint?
-=> Run flake8 on metricTest.py. Can you correct each of the errors returned by flake8? What amendments have you made to the code?
 ```
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
+ 3  import string
+ 4
+ 5  shift = 3
+ 6  choice = raw_input("would you like to encode or decode?")
+ 7  word = (raw_input("Please enter text"))
+ 8  letters = string.ascii_letters + string.punctuation + string.digits
+ 9  encoded = ''
+10  if choice == "encode":
+11      for letter in word:
+12          if letter == ' ':
+13              encoded = encoded + ' '
+14          else:
+15              x = letters.index(letter) + shift
+16              encoded=encoded + letters[x]
+17  if choice == "decode":
+18      for letter in word:
+19          if letter == ' ':
+20              encoded = encoded + ' '
+21          else:
+22              x = letters.index(letter) - shift
+23              encoded = encoded + letters[x]
+24
+25  print encoded
+
+```
+### :paperclip: TASK: 
+
+  * Question A: Review the errors returned. In what way does this error message differ from the error message returned by pylint?
+  * Question B: Run flake8 on [metricTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/metricTest.py). Can you correct each of the errors returned by flake8? What amendments have you made to the code?
+ 
+### :paperclip: MY SOLUTION TO QUESTION A:
+
+PyLint has a lot more types of checks than flake8. When comparing Pylint vs flake8, the [Slant community](https://www.slant.co/versus/12630/12632/~pylint_vs_flake8) recommends Pylint for most people. In the question“What are the best Python code linters?” Pylint is ranked 1st while flake8 is ranked 2nd. The most important reason people chose Pylint is: Pylint gives very detailed reports of your code. Pylint prefixes each of the problem areas with a R, C, W, E, or F, meaning:
+
+* [R]efactor for a “good practice” metric violation
+* [C]onvention for coding standard violation
+* [W]arning for stylistic problems, or minor programming issues
+* [E]rror for important programming issues (i.e. most probably bug)
+* [F]atal for errors which prevented further processing
+
+### :paperclip: MY SOLUTION TO QUESTION B:
+
+After running pylint multiple times on my file metric_test_done.py, I finally reached the score 10.00. Here is the response shown in the terminal:
+
+```
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+```
+
+Please click the link below to see the my code after all the corrections suggested by pylint: 
+
+| Lab Question 3B | [metric_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/metric_test_done.py)   
 
  
 ## 4. Lab Question 4
