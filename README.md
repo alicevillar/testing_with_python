@@ -1,7 +1,7 @@
  <h1>Pylint Challenges</h1>
 
 This repository contains Pylint exercises from CODIO. It was part of Module 3 (“Secure Software Development”) Unit 4 (Exploring Programming Language Concepts) of my MSc in Computer Science at the University of Essex, UK.
- 
+
 <h2>Table of Contents</h2>
 
 <!-- TOC -->
@@ -10,28 +10,37 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (�
 - [3. Lab Question 3](#3-question-3)
 - [4. Lab Question 4](#4-question-4)
 - [5. Lab Question 5](#5-question-5)
-
-
 <!-- /TOC -->
 
 
 ## 1. Lab Question 1
 
+Run styleLint.py: 
 ```
-Run styleLint.py in Codio.
+def factorial(n):
+""" Return factorial of n """
+if n == 0:
+return 1
+else:
+return n*factorial(n-1)
+```
+## Questions: 
 
-  => What happens when the code is run? 
-  => Can you modify this code for a more favourable outcome? 
-  => What amendments have you made to the code?
-```
- | Lab Question 1 - solution | [stilelint.py](https://https://github.com/alicevillar/pylint_challenges/edit/main/stilelint.py) 
+  * What happens when the code is run? 
+  * Can you modify this code for a more favourable outcome? 
+  * What amendments have you made to the code?
+ 
+ 
+## Answer:
 
 In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input a positive integer. Note that there are rules for the factorial calculation that we need to check. Thus, I added these checks:
 * n must be an integer
 * n must be greater or equal to 1 (n≥1)
 Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
 
-:arrow_forward: Three ways to calculate factorial
+ | Click here to see the solution for Lab Question 1 | [stilelint.py](https://https://github.com/alicevillar/pylint_challenges/edit/main/stilelint.py) 
+
+### :arrow_forward: Three ways to calculate factorial
 
 After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
 
