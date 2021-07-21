@@ -44,9 +44,9 @@ Finally, I added the input() function to read the value entered by the user, cal
 
 After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
 
-* a) Using a function from the math module: The math library has a function to calculate factorial and the code only take one line. 
-* b) Using for loop:
-* c) Using recursion.  
+* a) Using a function from the math module 
+* b) Using for loop 
+* c) Using recursion  
 
 | Click here to see the solution | [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
