@@ -15,14 +15,13 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (â
 
 ## 1. LAB QUESTION 1
 
-Run [stylelint.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint.py) : 
-
+Run the following code: [styleLint.py](https://github.com/alicevillar/pylint_challenges/blob/main/styleLint.py) 
+ 
 ### :paperclip: TASK: 
 
   * What happens when the code is run? 
   * Can you modify this code for a more favourable outcome? 
   * What amendments have you made to the code?
- 
  
 ### :paperclip: MY SOLUTION:
 
@@ -31,7 +30,7 @@ In this exercise, the code had identation errors. After fixing identation, I cha
 * n must be greater or equal to 1 (nâ‰¥1)
 Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
 
- | Click here to see the solution for Lab Question 1 | [stylelint.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint.py) 
+ | Click here to see the solution for Lab Question 1 | [stylelint_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint_done.py) 
 
 ### :round_pushpin: Three ways to calculate factorial
 
@@ -46,33 +45,7 @@ After doing Lab Question 1, I wanted to go further so I tested three ways to cal
 
 ## 2. LAB QUESTION 2
 
-pip install pylint, then run pylint on pylintTest.py:
-```
- 3  import string
- 4
- 5  shift = 3
- 6  choice = raw_input("would you like to encode or decode?")
- 7  word = (raw_input("Please enter text"))
- 8  letters = string.ascii_letters + string.punctuation + string.digits
- 9  encoded = ''
-10  if choice == "encode":
-11      for letter in word:
-12          if letter == ' ':
-13              encoded = encoded + ' '
-14          else:
-15              x = letters.index(letter) + shift
-16              encoded=encoded + letters[x]
-17  if choice == "decode":
-18      for letter in word:
-19          if letter == ' ':
-20              encoded = encoded + ' '
-21          else:
-22              x = letters.index(letter) - shift
-23              encoded = encoded + letters[x]
-24
-25  print encoded
-
-```
+pip install pylint, then run pylint on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py):
 
 ### :paperclip: TASK: 
 
@@ -89,34 +62,8 @@ I have corrected all the errors identified by pylist and finally received this r
 ## 3. LAB QUESTION 3
  
 pip install flake8
-Run flake8 on pylintTest.py:
+Run flake8 on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py)
 
-```
- 3  import string
- 4
- 5  shift = 3
- 6  choice = raw_input("would you like to encode or decode?")
- 7  word = (raw_input("Please enter text"))
- 8  letters = string.ascii_letters + string.punctuation + string.digits
- 9  encoded = ''
-10  if choice == "encode":
-11      for letter in word:
-12          if letter == ' ':
-13              encoded = encoded + ' '
-14          else:
-15              x = letters.index(letter) + shift
-16              encoded=encoded + letters[x]
-17  if choice == "decode":
-18      for letter in word:
-19          if letter == ' ':
-20              encoded = encoded + ' '
-21          else:
-22              x = letters.index(letter) - shift
-23              encoded = encoded + letters[x]
-24
-25  print encoded
-
-```
 ### :paperclip: TASK: 
 
   * Question A: Review the errors returned. In what way does this error message differ from the error message returned by pylint?
