@@ -54,7 +54,14 @@ pip install pylint, then run pylint on [pylintTest.py](https://github.com/alicev
  
 ### :paperclip: MY SOLUTION:
 
-I have corrected all the errors identified by pylist and finally received this response in the terminal: "Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)". I saved the new code in the file named pylint_test_done.py. Please click the linkk below to see it: 
+I have corrected all the errors identified by pylist and finally received this response in the terminal: 
+
+```
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)
+```
+
+I saved the new code in the file named pylint_test_done.py. Please click the linkk below to see it. 
 
  | Click here to see the solution to Lab Question 2 | [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)   
 
