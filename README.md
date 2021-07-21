@@ -44,23 +44,50 @@ Finally, I added the input() function to read the value entered by the user, cal
 
 After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
 
-* a) Using a function from the math module 
-* b) Using for loop 
-* c) Using recursion  
+* a) Using a function from the math module: The math library has a function to calculate factorial and the code only take one line. 
+* b) Using for loop:
+* c) Using recursion.  
 
 | Click here to see the solution | [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
 
 ## 2. Lab Question 2
 
+pip install pylint, then run pylint on pylintTest.py:
 ```
-pip install pylint
-Run pylint on pylintTest.py
+ 3  import string
+ 4
+ 5  shift = 3
+ 6  choice = raw_input("would you like to encode or decode?")
+ 7  word = (raw_input("Please enter text"))
+ 8  letters = string.ascii_letters + string.punctuation + string.digits
+ 9  encoded = ''
+10  if choice == "encode":
+11      for letter in word:
+12          if letter == ' ':
+13              encoded = encoded + ' '
+14          else:
+15              x = letters.index(letter) + shift
+16              encoded=encoded + letters[x]
+17  if choice == "decode":
+18      for letter in word:
+19          if letter == ' ':
+20              encoded = encoded + ' '
+21          else:
+22              x = letters.index(letter) - shift
+23              encoded = encoded + letters[x]
+24
+25  print encoded
 
-=> Review each of the code errors returned. 
-=> Can you correct each of the errors identified by pylint? 
-=> Before correcting the code errors, save the pylintTest.py file with a new name (it will be needed again in the next question).
 ```
+
+### :paperclip: Questions: 
+
+  * Review each of the code errors returned. 
+  * Can you correct each of the errors identified by pylint? 
+  * Before correcting the code errors, save the pylintTest.py file with a new name (it will be needed again in the next question).
+ 
+
  | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
 
 
