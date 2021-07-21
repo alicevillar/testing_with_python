@@ -24,14 +24,14 @@ Run styleLint.py in Codio.
   => Can you modify this code for a more favourable outcome? 
   => What amendments have you made to the code?
 ```
- | Lab Question 1 | [Solution](https://https://github.com/alicevillar/pylint_challenges/edit/main/stilelint.py) 
+ | Lab Question 1 - solution | [stilelint.py](https://https://github.com/alicevillar/pylint_challenges/edit/main/stilelint.py) 
 
 In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input a positive integer. Note that there are rules for the factorial calculation that we need to check. Thus, I added these checks:
 * n must be an integer
 * n must be greater or equal to 1 (n≥1)
 Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
 
-##### Three ways to calculate factorial
+:arrow_forward: Three ways to calculate factorial
 
 After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
 
@@ -39,10 +39,7 @@ After doing Lab Question 1, I wanted to go further so I tested three ways to cal
 * b) Using for loop:
 * c) Using recursion.  
 
-
-The math library (prebuilt in Python) has a function to calculate factorial. The result would be the same as in the code in the above section but will only take one line to calculate it.
-
-| Calculating Factorial | [Solution](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
+| Click here to see the solution | [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
 
 ## 2. Lab Question 2
