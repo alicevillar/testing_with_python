@@ -102,29 +102,28 @@ Please click the link below to see the my code after all the corrections suggest
  
 ## 4. Lab Question 4
 
-```
-pip install mccabe
-Run mccabe on sums.py. What is the result?
-Run mccabe on sums2.py. What is the result?
+This exercise requires to pip install mccabe checker.
 
-=> What are the contributors to the cyclomatic complexity in each piece of code?
-```
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
+### :paperclip: TASK: 
 
- 
-#### Lab Question 5 (e-portfolio entry)
+ * Question A: Run mccabe on [sums.py](https://github.com/alicevillar/testing_with_python/blob/main/sums.py). What is the result?
+ * Question A: Run mccabe on [sums2.py](https://github.com/alicevillar/testing_with_python/blob/main/sums2.py). What is the result?
+ * Question C: What are the contributors to the cyclomatic complexity in each piece of code?
 
-```
-From Section 5 of the Firdaus et al (2014) reading, select a test technique from the following categories:
+### :paperclip: MY SOLUTION TO QUESTION A
 
-* Specification-based techniques
-* Structure-based techniques
-* Experience-based techniques
-<br>
 
-=> Discuss the scenario(s) in which each technique would be important to be used.
-```
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)  
- 
- 
- 
+### :paperclip: MY SOLUTION TO QUESTION B
+
+
+### :paperclip: MY SOLUTION TO QUESTION C
+
+Cyclomatic complexity of a code section is the quantitative measure of the number of linearly independent paths in it. It is a software metric used to indicate the complexity of a program. Advantages of Cyclomatic Complexity:  
+
+* It can be used as a quality metric, gives relative complexity of various designs.
+* It is able to compute faster than the Halstead’s metrics.
+* It is used to measure the minimum effort and best areas of concentration for testing.
+* It is able to guide the testing process.
+* It is easy to apply.
+  
+ [Source: GeeksforGeeks](https://www.geeksforgeeks.org/cyclomatic-complexity/)
