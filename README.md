@@ -24,7 +24,7 @@ return 1
 else:
 return n*factorial(n-1)
 ```
-### :paperclip: Questions: 
+### :paperclip: Task: 
 
   * What happens when the code is run? 
   * Can you modify this code for a more favourable outcome? 
@@ -81,25 +81,17 @@ pip install pylint, then run pylint on pylintTest.py:
 
 ```
 
-### :paperclip: Questions: 
+### :paperclip: Task: 
 
-  * Review each of the code errors returned. 
-  * Can you correct each of the errors identified by pylint? 
+  * Review each of the code errors returned. Can you correct each of the errors identified by pylint? 
   * Before correcting the code errors, save the pylintTest.py file with a new name (it will be needed again in the next question).
  
+### :paperclip: Answer:
 
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
+I have corrected all the errors identified by pylist and finally received this response in the terminal: "Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)". I saved the new code in the file named pylint_test_done.py. Please click the linkk below to see it: 
 
+ | Click here to see the solution to Lab Question 2 | [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)   
 
-  Note that the factorial function is defined only for positive integers;                   
- pylint -E stylelint.py = comando p/ buscar errors                                          
- Output => stylelint.py:9:1: E0001: invalid syntax (<unknown>, line 9) (syntax-error)       
-                                                                                             
-  pylint -rn stylelint.py = >                                                                
-                                                                                             
- stylelint.py:9:1: E0001: invalid syntax (<unknown>, line 9) (syntax-error)                 
-                                                                                             
- OUTPUT => SyntaxError: Missing parentheses in call to 'print'. Did you mean print(encoded)?
  
 ## 3. Lab Question 3
 
