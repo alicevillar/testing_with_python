@@ -15,15 +15,8 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (â
 
 ## 1. LAB QUESTION 1
 
-Run styleLint.py: 
-```
-def factorial(n):
-""" Return factorial of n """
-if n == 0:
-return 1
-else:
-return n*factorial(n-1)
-```
+Run [stylelint.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint.py) : 
+
 ### :paperclip: TASK: 
 
   * What happens when the code is run? 
