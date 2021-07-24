@@ -135,12 +135,8 @@ This exercise requires to pip install mccabe checker.
 
 ### :paperclip: MY SOLUTION TO QUESTION C
 
-Cyclomatic complexity of a code section is the quantitative measure of the number of linearly independent paths in it. It is a software metric used to indicate the complexity of a program. Advantages of Cyclomatic Complexity:  
+Cyclomatic complexity of a code section is the quantitative measure of the number of linearly independent paths in it. It is a software metric used to indicate the complexity of a program. Measuring the complexity of the code tells the developer how many paths there are in the code. Therefore, the developer knows how many paths there are to test. This will help them calculate the minimum number of tests required to cover the entire code. 
 
-* It can be used as a quality metric, gives relative complexity of various designs.
-* It is able to compute faster than the Halstead’s metrics.
-* It is used to measure the minimum effort and best areas of concentration for testing.
-* It is able to guide the testing process.
-* It is easy to apply.
+ 
   
  [Source: GeeksforGeeks](https://www.geeksforgeeks.org/cyclomatic-complexity/)
