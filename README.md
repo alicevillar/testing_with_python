@@ -87,16 +87,34 @@ As you can see, PyLint performs a more detailed check than flake8. When comparin
 
 ### :paperclip: MY SOLUTION TO QUESTION B:
 
-After running pylint multiple times on my file metric_test_done.py, I finally reached the score 10.00. Here is the response shown in the terminal:
+After running pylint multiple times and fixing all the errors, I finally reached the score 10.00. Here is the response shown in the terminal:
 
 ```
 --------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 ```
 
-Please click the link below to see the my code after all the corrections suggested by pylint: 
+Please see the solution in the file [metric_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/metric_test_done.py). Here are some of the modifications I had to do and some of most common errors that pylint detected and I fixed: 
 
-| Lab Question 3B | [metric_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/metric_test_done.py)   
+* parentesis and indentation erros  
+* changing the order expected_time & start_time
+* deleting import random because was not being used
+* deleting unecessary "else" in the last function
+* name of the last function had to be a string
+* In the last function, argument name "y" did not conform to snake_case naming style (invalid-name)
+* functions names have to be pascal case
+* explain what each function does
+* insert comments inside each function (it is only needed when the function is not a getter, a setter or the constructor)  
+* in the function def f_function, the statement "else" was unecessary  
+* Unused argument 'x' (unused-argument), so I had to create variables to put x and y  
+* the name of the first function was too big, so I had to shorten  
+* the name of the file must respect snake case.  
+* delet the module "object" from the first function because it was redundant 
+* name of the functions have to be a variable in the snakecase stile  
+* Class name "D_class" e C didn't conform to PascalCase naming style (invalid-name), so I changed
+* There cannot be a function with the same name in different classes 
+* Final newline was missing (missing-final-newline)
+ 
 
  
 ## 4. LAB QUESTION 4
