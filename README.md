@@ -8,29 +8,25 @@ Run the following code: [styleLint.py](https://github.com/alicevillar/pylint_cha
  
 ### :paperclip: TASK: 
 
-  * What happens when the code is run? 
-  * Can you modify this code for a more favourable outcome? 
-  * What amendments have you made to the code?
+  * Question A: What happens when the code is run? 
+  * Question B: Can you modify this code for a more favourable outcome? 
+  * Question C: What amendments have you made to the code?
  
-### :paperclip: MY SOLUTION:
+### :paperclip: MY SOLUTIONS TO QUESTIONS A, B AND C::
 
-In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input a positive integer. Note that there are rules for the factorial calculation that we need to check. Thus, I added these checks:
+In this exercise, the code had identation errors. After fixing identation, I changed it for a more favorable out come by checking if the input an integer. To see the amendments I did to the code, see the file [stylelint_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint_done.py). 
+
+Note that there are rules for the factorial calculation that we need to check. Thus, I did another code and added these checks:
 * n must be an integer
 * n must be greater or equal to 1 (n≥1)
-Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
+Finally, I added the input() function to read the value entered by the user, called the function and printed the result. To see this new code, check the file [stylelint_done2.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint_done2.py).  
 
- | Click here to see the solution for Lab Question 1 | [stylelint_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint_done.py) 
+### :round_pushpin: Another two ways to calculate factorial
 
-### :round_pushpin: Three ways to calculate factorial
-
-After doing Lab Question 1, I wanted to go further so I tested three ways to calculate factorial: 
+After doing Lab Question 1, I wanted to go further so I tested another 2 ways to calculate factorial, which you can see in the file [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py). I did it in two ways:
 
 * a) Using a function from the math module: The math library has a function to calculate factorial and the code only take one line. 
-* b) Using for loop:
-* c) Using recursion.  
-
-| Click here to see the solution | [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
-
+* b) Using for loop: 
 
 ## 2. LAB QUESTION 2
 
