@@ -2,18 +2,7 @@
 
 This repository contains Pylint exercises from CODIO. It was part of Module 3 (“Secure Software Development”) Unit 6 (Using Linters to Support Python Testing) of my MSc in Computer Science at the University of Essex, UK.
 
-<h2>Table of Contents</h2>
-
-<!-- TOC -->
-- [1. Lab Question 1](#1-question-1)
-- [2. Lab Question 2](#2-question-2)
-- [3. Lab Question 3](#3-question-3)
-- [4. Lab Question 4](#4-question-4)
-- [5. Lab Question 5](#5-question-5)
-<!-- /TOC -->
-
-
-## 1. Lab Question 1
+## 1. LAB QUESTION 1
 
 Run the following code: [styleLint.py](https://github.com/alicevillar/pylint_challenges/blob/main/styleLint.py) 
  
@@ -43,7 +32,7 @@ After doing Lab Question 1, I wanted to go further so I tested three ways to cal
 | Click here to see the solution | [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
 
-## 2. Lab Question 2
+## 2. LAB QUESTION 2
 
 pip install pylint, then run pylint on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py):
 
@@ -66,7 +55,7 @@ I saved the new code in the file named pylint_test_done.py. Please click the lin
  | Click here to see the solution to Lab Question 2 | [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)   
 
  
-## 3. Lab Question 3
+## 3. LAB QUESTION 3
  
 pip install flake8
 Run flake8 on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py)
@@ -100,7 +89,7 @@ Please click the link below to see the my code after all the corrections suggest
 | Lab Question 3B | [metric_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/metric_test_done.py)   
 
  
-## 4. Lab Question 4
+## 4. LAB QUESTION 4
 
 This exercise requires to pip install mccabe checker.
 
