@@ -1,28 +1,16 @@
- <h1>Pylint Challenges</h1>
+ <h1>Testing with Python: CODIO Challenges</h1>
 
 This repository contains Pylint exercises from CODIO. It was part of Module 3 (“Secure Software Development”) Unit 6 (Using Linters to Support Python Testing) of my MSc in Computer Science at the University of Essex, UK.
 
-<h2>Table of Contents</h2>
-
-<!-- TOC -->
-- [1. Lab Question 1](#1-question-1)
-- [2. Lab Question 2](#2-question-2)
-- [3. Lab Question 3](#3-question-3)
-- [4. Lab Question 4](#4-question-4)
-- [5. Lab Question 5](#5-question-5)
-<!-- /TOC -->
-
-
 ## 1. LAB QUESTION 1
 
-Run [stylelint.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint.py) : 
-
+Run the following code: [styleLint.py](https://github.com/alicevillar/pylint_challenges/blob/main/styleLint.py) 
+ 
 ### :paperclip: TASK: 
 
   * What happens when the code is run? 
   * Can you modify this code for a more favourable outcome? 
   * What amendments have you made to the code?
- 
  
 ### :paperclip: MY SOLUTION:
 
@@ -31,7 +19,7 @@ In this exercise, the code had identation errors. After fixing identation, I cha
 * n must be greater or equal to 1 (n≥1)
 Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
 
- | Click here to see the solution for Lab Question 1 | [stylelint.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint.py) 
+ | Click here to see the solution for Lab Question 1 | [stylelint_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint_done.py) 
 
 ### :round_pushpin: Three ways to calculate factorial
 
@@ -46,33 +34,7 @@ After doing Lab Question 1, I wanted to go further so I tested three ways to cal
 
 ## 2. LAB QUESTION 2
 
-pip install pylint, then run pylint on pylintTest.py:
-```
- 3  import string
- 4
- 5  shift = 3
- 6  choice = raw_input("would you like to encode or decode?")
- 7  word = (raw_input("Please enter text"))
- 8  letters = string.ascii_letters + string.punctuation + string.digits
- 9  encoded = ''
-10  if choice == "encode":
-11      for letter in word:
-12          if letter == ' ':
-13              encoded = encoded + ' '
-14          else:
-15              x = letters.index(letter) + shift
-16              encoded=encoded + letters[x]
-17  if choice == "decode":
-18      for letter in word:
-19          if letter == ' ':
-20              encoded = encoded + ' '
-21          else:
-22              x = letters.index(letter) - shift
-23              encoded = encoded + letters[x]
-24
-25  print encoded
-
-```
+pip install pylint, then run pylint on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py):
 
 ### :paperclip: TASK: 
 
@@ -81,7 +43,14 @@ pip install pylint, then run pylint on pylintTest.py:
  
 ### :paperclip: MY SOLUTION:
 
-I have corrected all the errors identified by pylist and finally received this response in the terminal: "Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)". I saved the new code in the file named pylint_test_done.py. Please click the linkk below to see it: 
+I have corrected all the errors identified by pylist and finally received this response in the terminal: 
+
+```
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)
+```
+
+I saved the new code in the file named pylint_test_done.py. Please click the linkk below to see it. 
 
  | Click here to see the solution to Lab Question 2 | [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)   
 
@@ -89,34 +58,8 @@ I have corrected all the errors identified by pylist and finally received this r
 ## 3. LAB QUESTION 3
  
 pip install flake8
-Run flake8 on pylintTest.py:
+Run flake8 on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py)
 
-```
- 3  import string
- 4
- 5  shift = 3
- 6  choice = raw_input("would you like to encode or decode?")
- 7  word = (raw_input("Please enter text"))
- 8  letters = string.ascii_letters + string.punctuation + string.digits
- 9  encoded = ''
-10  if choice == "encode":
-11      for letter in word:
-12          if letter == ' ':
-13              encoded = encoded + ' '
-14          else:
-15              x = letters.index(letter) + shift
-16              encoded=encoded + letters[x]
-17  if choice == "decode":
-18      for letter in word:
-19          if letter == ' ':
-20              encoded = encoded + ' '
-21          else:
-22              x = letters.index(letter) - shift
-23              encoded = encoded + letters[x]
-24
-25  print encoded
-
-```
 ### :paperclip: TASK: 
 
   * Question A: Review the errors returned. In what way does this error message differ from the error message returned by pylint?
@@ -146,31 +89,30 @@ Please click the link below to see the my code after all the corrections suggest
 | Lab Question 3B | [metric_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/metric_test_done.py)   
 
  
-## 4. Lab Question 4
+## 4. LAB QUESTION 4
 
-```
-pip install mccabe
-Run mccabe on sums.py. What is the result?
-Run mccabe on sums2.py. What is the result?
+This exercise requires to pip install mccabe checker.
 
-=> What are the contributors to the cyclomatic complexity in each piece of code?
-```
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)   
+### :paperclip: TASK: 
 
- 
-#### Lab Question 5 (e-portfolio entry)
+ * Question A: Run mccabe on [sums.py](https://github.com/alicevillar/testing_with_python/blob/main/sums.py). What is the result?
+ * Question A: Run mccabe on [sums2.py](https://github.com/alicevillar/testing_with_python/blob/main/sums2.py). What is the result?
+ * Question C: What are the contributors to the cyclomatic complexity in each piece of code?
 
-```
-From Section 5 of the Firdaus et al (2014) reading, select a test technique from the following categories:
+### :paperclip: MY SOLUTION TO QUESTION A
 
-* Specification-based techniques
-* Structure-based techniques
-* Experience-based techniques
-<br>
 
-=> Discuss the scenario(s) in which each technique would be important to be used.
-```
- | Lab Question 1 | [Solution](https://github.com/alicevillar/Python_Lab_Challenges/blob/main/lists/lists_exercise1.py)  
- 
- 
- 
+### :paperclip: MY SOLUTION TO QUESTION B
+
+
+### :paperclip: MY SOLUTION TO QUESTION C
+
+Cyclomatic complexity of a code section is the quantitative measure of the number of linearly independent paths in it. It is a software metric used to indicate the complexity of a program. Advantages of Cyclomatic Complexity:  
+
+* It can be used as a quality metric, gives relative complexity of various designs.
+* It is able to compute faster than the Halstead’s metrics.
+* It is used to measure the minimum effort and best areas of concentration for testing.
+* It is able to guide the testing process.
+* It is easy to apply.
+  
+ [Source: GeeksforGeeks](https://www.geeksforgeeks.org/cyclomatic-complexity/)
