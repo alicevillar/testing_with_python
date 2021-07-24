@@ -13,7 +13,7 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (â
 <!-- /TOC -->
 
 
-## 1. Lab Question
+## 1. Lab Question 1
 
 Run the following code: [styleLint.py](https://github.com/alicevillar/pylint_challenges/blob/main/styleLint.py) 
  
