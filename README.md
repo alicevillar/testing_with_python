@@ -13,7 +13,7 @@ This repository contains Pylint exercises from CODIO. It was part of Module 3 (â
 <!-- /TOC -->
 
 
-## 1. LAB QUESTION 1
+## 1. Lab Question
 
 Run the following code: [styleLint.py](https://github.com/alicevillar/pylint_challenges/blob/main/styleLint.py) 
  
@@ -43,7 +43,7 @@ After doing Lab Question 1, I wanted to go further so I tested three ways to cal
 | Click here to see the solution | [calculating_factorial_3ways.py](https://github.com/alicevillar/pylint_challenges/blob/main/calculating_factorial_3ways.py) 
 
 
-## 2. LAB QUESTION 2
+## 2. Lab Question 2
 
 pip install pylint, then run pylint on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py):
 
@@ -66,7 +66,7 @@ I saved the new code in the file named pylint_test_done.py. Please click the lin
  | Click here to see the solution to Lab Question 2 | [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)   
 
  
-## 3. LAB QUESTION 3
+## 3. Lab Question 3
  
 pip install flake8
 Run flake8 on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py)
