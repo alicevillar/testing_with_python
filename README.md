@@ -19,7 +19,9 @@ In this exercise, the code had identation errors. After fixing identation, I cha
 Note that there are rules for the factorial calculation that we need to check. Thus, I did another code and added these checks:
 * n must be an integer
 * n must be greater or equal to 1 (n≥1)
-Finally, I added the input() function to read the value entered by the user, called the function and printed the result. To see this new code, check the file [stylelint_done2.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint_done2.py).  
+
+Finally, I added the input() function to read the value entered by the user, called the function and printed the result. 
+To see this new code, check the file [stylelint_done2.py](https://github.com/alicevillar/pylint_challenges/blob/main/stylelint_done2.py).  
 
 ### :round_pushpin: Another two ways to calculate factorial
 
