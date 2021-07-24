@@ -48,10 +48,7 @@ I have corrected all the errors identified by pylist and finally received this r
 Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)
 ```
 
-I saved the new code in the file named pylint_test_done.py. Please click the linkk below to see it. 
-
- | Click here to see the solution to Lab Question 2 | [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)   
-
+I saved the new code in the file named [pylint_test_done.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylint_test_done.py)  . Please click the linkk below to see it. 
  
 ## 3. LAB QUESTION 3
  
