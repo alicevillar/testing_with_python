@@ -148,12 +148,8 @@ To see the output click [here](https://github.com/alicevillar/testing_with_pytho
 
 ### :paperclip: MY SOLUTION TO QUESTION C
 
-Cyclomatic complexity of a code section is the quantitative measure of the number of linearly independent paths in it. It is a software metric used to indicate the complexity of a program. Measuring the complexity of the code tells the developer how many paths there are in the code. Therefore, the developer knows how many paths there are to test. This will help them calculate the minimum number of tests required to cover the entire code. Thus, Cyclomatic complexity is a way to determine if your code needs to be refactored.  
+[Cyclomatic complexity](https://www.geeksforgeeks.org/cyclomatic-complexity/) is a software metric used to indicate the complexity of a program. Measuring the complexity of the code tells the developer how many paths there are in the code. Therefore, the developer knows how many paths there are to test. This will help them calculate the minimum number of tests required to cover the entire code. Thus, Cyclomatic complexity is a way to determine if your code needs to be refactored.  
 
-I used mccabe to check the Ciclomatic Complexity in each piece of code and in both cases the Ciclomatic Complexity is one. Click [here](https://github.com/alicevillar/testing_with_python/blob/main/complexity_sums_sums2.JPG) to see the output. 
+I used mccabe to check the Cyclomatic Complexity in each piece of code and in both cases the Ciclomatic Complexity is one. Click [here](https://github.com/alicevillar/testing_with_python/blob/main/complexity_sums_sums2.JPG) to see the output. 
 
-### Resources:
-  
- [Source: GeeksforGeeks](https://www.geeksforgeeks.org/cyclomatic-complexity/)
- [Source: equivalence relations - stackoverflow](https://stackoverflow.com/questions/38924421/is-there-a-standard-way-to-partition-an-interable-into-equivalence-classes-given/38924686#38924686)
  
