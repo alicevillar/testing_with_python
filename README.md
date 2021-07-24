@@ -65,7 +65,22 @@ Run flake8 on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/b
  
 ### :paperclip: MY SOLUTION TO QUESTION A:
 
-PyLint has a lot more types of checks than flake8. When comparing Pylint vs flake8, the [Slant community](https://www.slant.co/versus/12630/12632/~pylint_vs_flake8) recommends Pylint for most people. In the question“What are the best Python code linters?” Pylint is ranked 1st while flake8 is ranked 2nd. The most important reason people chose Pylint is: Pylint gives very detailed reports of your code. Pylint prefixes each of the problem areas with a R, C, W, E, or F, meaning:
+Here is the response in the terminal when I run pylint in the file pylintTest.py: 
+
+```
+C:\Users\Alice\PycharmProjects\pylint_studies>pylint pylintTest.py
+************* Module pylintTest
+pylintTest.py:23:7: E0001: Missing parentheses in call to 'print'. Did you mean print(encoded)? (<unknown>, line 23) (syntax-error)
+```
+
+Here is the response in the terminal when I run flake8 in the file pylintTest.py: 
+
+```
+C:\Users\Alice\PycharmProjects\pylint_studies>flake8 pylintTest.py
+pylintTest.py:23:7: E999 SyntaxError: invalid syntax
+```
+
+As you can see, PyLint performs a more detailed check than flake8. When comparing Pylint vs flake8, the [Slant community](https://www.slant.co/versus/12630/12632/~pylint_vs_flake8) recommends Pylint for most people. In the question“What are the best Python code linters?” Pylint is ranked 1st while flake8 is ranked 2nd. The most important reason people chose Pylint is: Pylint gives very detailed reports of your code. Pylint prefixes each of the problem areas with a R, C, W, E, or F, meaning:
 
 * [R]efactor for a “good practice” metric violation
 * [C]onvention for coding standard violation
