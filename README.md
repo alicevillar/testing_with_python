@@ -52,8 +52,8 @@ I saved the new code in the file named [pylint_test_done.py](https://github.com/
  
 ## 3. LAB QUESTION 3
  
-pip install flake8
-Run flake8 on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py)
+* pip install flake8
+* Run flake8 on [pylintTest.py](https://github.com/alicevillar/pylint_challenges/blob/main/pylintTest.py)
 
 ### :paperclip: TASK: 
 
